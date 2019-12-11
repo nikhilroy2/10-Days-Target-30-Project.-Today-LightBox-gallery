@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div class="first_slide_control_wrapper">
+        <div class="first_slide_control" onclick="open_first_slide(this); currentSlide(1)">
+        <img src="https://images.unsplash.com/photo-1575993365610-a185fa4bfc73?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=60" alt="">
+        </div>
+        <div class="first_slide_control" onclick="open_first_slide(this); currentSlide(2)">
+        <img src="https://images.unsplash.com/photo-1575961895658-53c39b1d3307?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=60" alt="">
+        </div>
+        <div class="first_slide_control" onclick="open_first_slide(this); currentSlide(3)">
+        <img src="https://images.unsplash.com/photo-1575931390568-44e58811bf7a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=60" alt="">
+        </div>
+        <div class="first_slide_control" onclick="open_first_slide(this); currentSlide(4)">
+        <img src="https://images.unsplash.com/photo-1575961895629-6fda7948c27a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=60" alt="">
+        </div>
+        <div class="first_slide_control" onclick="open_first_slide(this); currentSlide(5)">
+        <img src="https://images.unsplash.com/photo-1575930584021-5fe3d045b6a7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=60" alt="">
+        </div>
+    </div>
+
+    <h1 style="text-align: center;">LightBox Image Gallery</h1>
+
+
+    <!---------------Fixed Slide Show................-->
+    <div class="my_slider_wrapper">
+        <button class="close_my_slider">&times;</button>
+    <div class="my_slider">
+        <div class="slide">
+            <img src="https://images.unsplash.com/photo-1575993365610-a185fa4bfc73?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=60" alt="">
+        </div>
+        <div class="slide">
+            <img src="https://images.unsplash.com/photo-1575961895658-53c39b1d3307?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=60" alt="">
+        </div>
+        <div class="slide">
+            <img src="https://images.unsplash.com/photo-1575931390568-44e58811bf7a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=60" alt="">
+        </div>
+        <div class="slide">
+            <img src="https://images.unsplash.com/photo-1575961895629-6fda7948c27a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=60" alt="">
+        </div>
+        <div class="slide">
+            <img src="https://images.unsplash.com/photo-1575930584021-5fe3d045b6a7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=60" alt="">
+        </div>
+
+        <button class="prev" onclick="btnControl(-1)"> &#10094;</button>
+        <button class="next" onclick="btnControl(1)"> &#10095;</button>
+    </div>
+    <div class="slide_control_wrapper">
+        <div class="slide_control " onclick="currentSlide(1)">
+            <img  src="https://images.unsplash.com/photo-1575993365610-a185fa4bfc73?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=60" alt="">
+        </div>
+        <div class="slide_control" onclick="currentSlide(2)">
+            <img src="https://images.unsplash.com/photo-1575961895658-53c39b1d3307?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=60" alt="">
+        </div>
+        <div class="slide_control" onclick="currentSlide(3)">
+            <img src="https://images.unsplash.com/photo-1575931390568-44e58811bf7a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=60" alt="">
+        </div>
+        <div class="slide_control" onclick="currentSlide(4)">
+            <img src="https://images.unsplash.com/photo-1575961895629-6fda7948c27a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=60" alt="">
+        </div>
+        <div class="slide_control" onclick="currentSlide(5)">
+            <img src="https://images.unsplash.com/photo-1575930584021-5fe3d045b6a7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=60" alt="">
+        </div>
+    </div>
+</div>
+    
+<div class="project">
+    10 Days, Target 30 Project
+</div>
+    <script src="js/script.js"></script>
+</body>
+</html>
